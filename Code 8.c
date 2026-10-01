@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter the marks");
+    scanf("%d", &a);
+    if(a>=90)
+    {
+        printf("A");
+    }
+    else if(a>=75)
+    {
+        printf("B");
+    }
+    else if(a>=60)
+    {
+        printf("C");
+    }
+    else
+    {
+        printf("D");
+    }
+    return 0;
+}
+
